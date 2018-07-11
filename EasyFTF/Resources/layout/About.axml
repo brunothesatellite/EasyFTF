@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:src="@drawable/splash_logo"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:id="@+id/aboutImg"
+            android:layout_gravity="center" />
+        <ImageView
+            android:src="@drawable/debug"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/aboutDbg"
+            android:layout_gravity="center" />
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/lblAbout"
+            android:text=" "
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+      <TextView
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/lblAboutMail"
+            android:text=" "
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+      <TextView
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/lblHelp"
+            android:text=" "
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+      <TextView
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/lblLicense"
+            android:text=" "
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+      <TextView
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/lblMaps"
+            android:text=" "
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>

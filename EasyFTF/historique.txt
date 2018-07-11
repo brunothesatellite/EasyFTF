@@ -1,0 +1,15 @@
+﻿1.6
+<en-US>
+- Fixed GC.com login
+- Remove Google Maps
+</en-US>
+
+<de-DE>
+- Fixed GC.com login
+- Remove Google Maps
+</de-DE>
+
+<fr-FR>
+- Fixed GC.com login
+- Remove Google Maps
+</fr-FR>

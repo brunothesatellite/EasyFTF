@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <item
+       android:id="@+id/menu_sort"
+       android:title="@string/SortList" />
+  <item
+       android:id="@+id/menu_selectall"
+       android:title="@string/SelectAll" />
+  <item
+       android:id="@+id/menu_deselectall"
+       android:title="@string/DeselectAll" />
+  <item
+       android:id="@+id/menu_toggle"
+       android:title="@string/Toggle" />
+  <item
+       android:id="@+id/menu_update"
+       android:title="@string/UpdateCoord" />
+  <item
+       android:id="@+id/menu_showonmap"
+       android:title="@string/ShowMap" />
+  <item
+       android:id="@+id/menu_delete"
+       android:title="@string/Delete" />
+</menu>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <group android:checkableBehavior="single">
+    <item
+         android:id="@+id/menu_sort_age"
+         android:title="@string/SortListAge" />
+    <item
+         android:id="@+id/menu_sort_name"
+         android:title="@string/SortListName" />
+    <item
+         android:id="@+id/menu_sort_type"
+         android:title="@string/SortListType" />
+  </group>
+</menu>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="50dp"
+        android:id="@+id/imageView_prefix"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="5dp"
+        android:scaleType="center"
+        android:layout_marginLeft="5dp" />
+    <ImageView
+        android:layout_width="32dp"
+        android:layout_height="50dp"
+        android:id="@+id/imageView_icon"
+        android:layout_toRightOf="@+id/imageView_prefix"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="10dp"
+        android:scaleType="center" />
+    <TextView
+        android:drawablePadding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Name"
+        android:id="@+id/textView_Name"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/imageView_icon"
+        android:layout_alignParentRight="true"
+        android:layout_above="@+id/textView_Info"
+        android:layout_margin="1dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Info: ..."
+        android:id="@+id/textView_Info"
+        android:layout_alignBottom="@+id/imageView_icon"
+        android:layout_alignLeft="@+id/textView_Name"
+        android:layout_alignParentRight="true"
+        android:layout_margin="1dp" />
+</RelativeLayout>

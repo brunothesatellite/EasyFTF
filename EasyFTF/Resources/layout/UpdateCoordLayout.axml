@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:src="@drawable/latlon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageLatlon"
+                android:layout_gravity="center" />
+            <TextView
+                android:id="@+id/lblCoord"
+                android:text="@string/Coordinates"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/editCoord"
+                android:singleLine="true"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/btnCoord"
+                android:drawablePadding="5dp"
+                android:text="@string/GetGPS"
+                android:drawableBottom="@drawable/coordinate"
+                android:background="@android:color/transparent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <Button
+                android:drawablePadding="5dp"
+                android:text="@string/PickMap"
+                android:drawableBottom="@drawable/map"
+                android:background="@android:color/transparent"
+                android:id="@+id/PickMap"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/lblCoordAllValues"
+                android:text="#Err\n#Err\n#Err"
+                android:layout_width="wrap_content"
+                android:layout_height="80.0dp"
+                android:inputType="textMultiLine" />
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="100dp">
+            <Button
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:id="@+id/BtnQuit"
+                android:drawablePadding="5dp"
+                android:text="@string/Cancel"
+                android:drawableLeft="@drawable/cancel"
+                android:background="@android:color/transparent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp" />
+            <Button
+                android:layout_alignParentBottom="true"
+                android:id="@+id/Save"
+                android:drawablePadding="5dp"
+                android:text="@string/BtnModify"
+                android:drawableLeft="@drawable/save"
+                android:background="@android:color/transparent"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp" />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>
